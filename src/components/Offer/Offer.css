@@ -1,0 +1,122 @@
+.offer-header {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #E4E5EA;
+    margin: 0 0 32px;
+    text-align: right;
+}
+
+.offer-button {
+    width: 262px;
+    height: 61px;
+    background-color: #4077F3;
+    color: white;
+    border: none;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    cursor: pointer;
+    transition: opacity .3s ease-out;
+    margin-left: 31px;
+}
+
+.offer-button:hover {
+    opacity: .8;
+}
+
+.offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 291px;
+}
+
+.offer-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 134px);
+    grid-template-rows: repeat(2, 70px);
+    gap: 30px;
+    padding: 0;
+    text-align: right;
+    margin: 0 0 66px;
+    justify-items: center;
+}
+
+.offer-list-item {
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.offer-list__header{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #E4E5EA;
+    margin: 0 0 5px ;
+}
+
+.offer-list__text {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #E4E5EA;
+    margin: 0;
+}
+
+.offer-list__mobile {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #E4E5EA;
+    display: none;
+}
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    .offer-button,.offer-list__header, .offer-list__text  {
+        display: none;
+    }
+
+    .offer {
+        width: 90%;
+        align-items: flex-start;
+    }
+
+    .offer-header {
+        text-align: left;
+        margin: 0 0 7px;
+    }
+
+    .offer-list__mobile {
+        display: inline;
+    }
+
+    .offer-text {
+        text-transform: lowercase;
+    }
+
+    .offer-list__mobile::before {        
+        content: "\2014";
+        font-family: 'Inter';
+        color: #E4E5EA;
+        background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%) #E4E5EA;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-right: 5px;
+    }
+
+    .offer-list {
+        grid-template-columns: 123px 149px;
+        grid-template-rows: repeat(2, 29px);
+        gap: 0;
+        justify-items: start;
+    }
+}
