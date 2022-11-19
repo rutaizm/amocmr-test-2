@@ -41,10 +41,13 @@ function Footer() {
                     <img className='contact-icon footer-icon' src={viber} alt=''/>
                     <img className='contact-icon footer-icon' src={whatsapp} alt=''/>
                 </div>                
-                <p className='footer__list-item'>Москва, Путевой проезд 3с1, к 902</p>
-                
+                <p className='footer__list-item'>Москва, Путевой проезд 3с1, к 902</p>                
             </address>  
-            <p className='footer__capture'>©WELBEX 2022. Все права защищены. Политика конфиденциальности</p>          
+            <div className='footer__capture-wrap'>
+                <p className='footer__capture'>©WELBEX 2022. Все права защищены.</p>
+                <span className='footer__capture footer__capture-decor'>Политика конфиденциальности</span> 
+            </div>
+                      
         </footer>
     )
 }

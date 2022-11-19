@@ -4,7 +4,7 @@
     width: 90%;
     margin: 0 auto;
     column-gap: 52px;
-    padding-top: 106px;
+    padding: 106px 0;
     box-sizing: border-box;
     grid-template-areas: 'company menu1 menu2 contact'
                             '. . . capture';
@@ -41,9 +41,8 @@
     line-height: 15px;
     color: #E4E5EA;
     width: 239px;
-    grid-area: capture;
     text-align: right;
-    margin:8px 0 0 38px;
+    margin:8px 0 0 0;
 }
 
 .footer__menu {
@@ -92,9 +91,15 @@
     margin:0 0 0 14px
 }
 
+.footer__capture-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;    
+    grid-area: capture;
+}
+
 .footer__capture-decor {
     text-decoration: underline;
-    grid-area: capture;
 }
 
 @media screen and (min-width:1281px) and (max-width:1440px) {
@@ -127,9 +132,14 @@
         align-items: flex-start;
     }
 
+    .footer__capture-wrap { 
+        margin-top: 29px;
+        align-items: flex-start;
+    }
+
+
     .footer__capture {
         text-align: left;
-        margin:39px 0 0 0;
     }
 
     .footer__title {
