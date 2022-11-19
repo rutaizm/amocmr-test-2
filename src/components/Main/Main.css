@@ -22,25 +22,31 @@
 }
 
 .red-ball {
-    width: 115px;
-    height: 115px;
+    width: 83px;
+    height: 83px;
     position: absolute;
-    background-image: url(../../images/red-ball.svg);
-    background-repeat: no-repeat;
-    top: -64px;
-    left: 357px;
-    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, 
+    rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%);
+    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);   
+    backdrop-filter: blur(2px);
+    top: -53px;
+    left: 370px;
 }
 
 .red-ball-small {
-    width: 59px;
-    height: 59px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
     position: absolute;
-    background-image: url(../../images/red-ball-small.svg);
-    background-repeat: no-repeat;
-    top: 401px;
-    right: 394px;
-    background-size: cover;
+    top: 409px;
+    right: 412px;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.48) 0%, 
+    rgba(212, 93, 93, 0.248) 59.67%, rgba(167, 49, 49, 0.264) 78.59%, rgba(130, 25, 25, 0.232) 100%);
+    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+    filter: blur(2.5px);
+    backdrop-filter: blur(2px);
 }
 
 .main-wrap {
