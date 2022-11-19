@@ -3,8 +3,12 @@ import '../Header/Header.css';
 import telegram from '../../images/telegram.svg';
 import viber from '../../images/viber.svg';
 import whatsapp from'../../images/whatsapp.svg';
+import {useScreenDimensions} from '../../hooks/useScreenDimensions';
 
 function Footer() {
+
+let width = useScreenDimensions();
+
     return (
         <footer className='footer'>
             <div className='footer__info'>      
@@ -26,8 +30,8 @@ function Footer() {
                 </nav>
                 <nav className='footer__menu area-menu_type_two'>
                 <ul className='footer__list'>            
-                    <li className='footer__list-item'>{window.innerWidth < 768 ? "Благодарность клиентов" : "Кейсы"}</li>
-                    <li className='footer__list-item'>{window.innerWidth < 768 ? "Кейсы" : "Благодарственные письма"}</li>
+                    <li className='footer__list-item'>{width < 768 ? "Благодарность клиентов" : "Кейсы"}</li>
+                    <li className='footer__list-item'>{width < 768 ? "Кейсы" : "Благодарственные письма"}</li>
                     <li className='footer__list-item'>Сертификаты</li>
                     <li className='footer__list-item'>Блог на Youtube</li>
                     <li className='footer__list-item'>Вопрос / Ответ</li>
