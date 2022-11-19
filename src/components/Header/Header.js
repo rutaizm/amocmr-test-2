@@ -26,9 +26,9 @@ function Header() {
             <div className='purple-ball'></div>
             <address className='contacts'>
                 <p className='phone'>+7 555 555-55-55</p>
-                <img className='contact-icon' src={telegram} alt=''/>
-                <img className='contact-icon' src={viber} alt=''/>
-                <img className='contact-icon' src={whatsapp} alt=''/>
+                <img className='contact-icon' src={telegram} alt='телеграм'/>
+                <img className='contact-icon' src={viber} alt='вайбер'/>
+                <img className='contact-icon' src={whatsapp} alt='ватсап'/>
             </address>
         </header>
     )

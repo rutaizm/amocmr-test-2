@@ -16,7 +16,7 @@
     background-image: url(../../images/red-light.svg);
     background-repeat: no-repeat;
     top: -139px;
-    left: -65px;
+    left: -103px;
     opacity: 0.5;
     background-size: cover;
 }
@@ -84,6 +84,10 @@
 @media screen and (min-width:768px) and (max-width:1180px) {
     .red-ball {
         left:200px;
+    }
+
+    .redlight {
+        left:-65px;
     }
 }
 

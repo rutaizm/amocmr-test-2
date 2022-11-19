@@ -41,9 +41,9 @@ let width = useScreenDimensions();
                 <h4 className='footer__title'>КОНТАКТЫ</h4>
                 <p className='footer-phone'>+7 555 555-55-55</p>
                 <div>
-                    <img className='contact-icon footer-icon' src={telegram} alt=''/>
-                    <img className='contact-icon footer-icon' src={viber} alt=''/>
-                    <img className='contact-icon footer-icon' src={whatsapp} alt=''/>
+                    <img className='contact-icon footer-icon' src={telegram} alt='телеграм'/>
+                    <img className='contact-icon footer-icon' src={viber} alt='вайбер'/>
+                    <img className='contact-icon footer-icon' src={whatsapp} alt='ватсапп'/>
                 </div>                
                 <p className='footer__list-item'>Москва, Путевой проезд 3с1, к 902</p>                
             </address>  
