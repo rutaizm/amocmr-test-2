@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/amocmr-test-2/static/css/main.81aa5998.css",
-    "main.js": "/amocmr-test-2/static/js/main.ef580e63.js",
+    "main.css": "/amocmr-test-2/static/css/main.090523fc.css",
+    "main.js": "/amocmr-test-2/static/js/main.fec995af.js",
     "static/js/787.0c3f432a.chunk.js": "/amocmr-test-2/static/js/787.0c3f432a.chunk.js",
     "static/media/Inter-Medium.woff": "/amocmr-test-2/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
     "static/media/Inter-Black.woff": "/amocmr-test-2/static/media/Inter-Black.c6938660eec019fefd68.woff",
@@ -19,12 +19,12 @@
     "static/media/red-light.svg": "/amocmr-test-2/static/media/red-light.f2e9ae5947fe94e1c2b0.svg",
     "static/media/purple-light.svg": "/amocmr-test-2/static/media/purple-light.677338f27ccc0af876c0.svg",
     "static/media/telegram.svg": "/amocmr-test-2/static/media/telegram.6e7254cc96db7b38e3485ef68453666f.svg",
-    "main.81aa5998.css.map": "/amocmr-test-2/static/css/main.81aa5998.css.map",
-    "main.ef580e63.js.map": "/amocmr-test-2/static/js/main.ef580e63.js.map",
+    "main.090523fc.css.map": "/amocmr-test-2/static/css/main.090523fc.css.map",
+    "main.fec995af.js.map": "/amocmr-test-2/static/js/main.fec995af.js.map",
     "787.0c3f432a.chunk.js.map": "/amocmr-test-2/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81aa5998.css",
-    "static/js/main.ef580e63.js"
+    "static/css/main.090523fc.css",
+    "static/js/main.fec995af.js"
   ]
 }
