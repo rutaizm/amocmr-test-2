@@ -18,11 +18,13 @@
     letter-spacing: 0.05em;
     color: #656566;
     margin-bottom: 4px;
+    z-index: 5;
 }
 
 .footer__list {
     list-style: none;
     padding: 0;
+    z-index: 5;
 }
 
 .footer__list-item {
@@ -32,6 +34,7 @@
     line-height: 19px;
     color: #E4E5EA;
     margin-bottom: 10px;
+    z-index: 5;
 }
 
 .footer__capture {

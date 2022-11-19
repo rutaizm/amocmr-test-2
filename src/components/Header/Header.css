@@ -9,14 +9,14 @@
 }
 
 .purple-light {
-    width: 650px;
-    height: 350px;
+    width: 210px;
+    height: 210px;
     position: absolute;
-    background-image: url(../../images/purple-light.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 0px;
-    left: 246px;
+    top: -105px;
+    left: 477px;
+    background: #833AB4;
+    opacity: 0.5;
+    filter: blur(196px);
 }
 
 .purple-ball {
@@ -40,6 +40,7 @@
 .logo {
     width: 140px;
     height: 24px;
+    z-index: 5;
 }
 
 .logo-wrap {
@@ -53,7 +54,8 @@
     font-weight: 300;
     font-size: 10px;
     line-height: 12px;
-    color: #E4E5EA
+    color: #E4E5EA;
+    z-index: 5;
 }
 
 .menu {
@@ -75,7 +77,8 @@
     font-size: 16px;
     line-height: 19px;
     color: #E4E5EA;
-    margin-right: 31px
+    margin-right: 31px;
+    z-index: 5;
 }
 .menu__list-item:last-child {
     margin-right: 0;
@@ -89,6 +92,7 @@
     line-height: 19px;
     color: #E4E5EA;
     margin: 0 49px 0 0;
+    z-index: 5;
 }
 
 .contacts {

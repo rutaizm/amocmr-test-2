@@ -10,15 +10,14 @@
 }
 
 .redlight {
-    width: 650px;
-    height: 700px;
-    position: absolute;
-    background-image: url(../../images/red-light.svg);
-    background-repeat: no-repeat;
-    top: -139px;
-    left: -103px;
+    width: 200px;
+    height: 200px;
+    position: absolute; 
+    top: 156px;
+    left: -143px;
+    background-color: #961A1A;
+    filter: blur(196px);
     opacity: 0.5;
-    background-size: cover;
 }
 
 .red-ball {
@@ -54,6 +53,7 @@
     width: 362px;
     flex-direction: column;
     margin-top: -13px;
+    z-index: 5;
 }
 
 .main-title {
