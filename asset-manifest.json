@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/amocmr-test-2/static/css/main.2e19aa9c.css",
-    "main.js": "/amocmr-test-2/static/js/main.7a4e2a14.js",
+    "main.css": "/amocmr-test-2/static/css/main.81aa5998.css",
+    "main.js": "/amocmr-test-2/static/js/main.ef580e63.js",
     "static/js/787.0c3f432a.chunk.js": "/amocmr-test-2/static/js/787.0c3f432a.chunk.js",
     "static/media/Inter-Medium.woff": "/amocmr-test-2/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
     "static/media/Inter-Black.woff": "/amocmr-test-2/static/media/Inter-Black.c6938660eec019fefd68.woff",
@@ -13,21 +13,18 @@
     "static/media/Montserrat-Regular.woff2": "/amocmr-test-2/static/media/Montserrat-Regular.8b56391ed36ea95337c6.woff2",
     "static/media/bg.png": "/amocmr-test-2/static/media/bg.bdbe8ea319b31b660ac0.png",
     "static/media/logo.svg": "/amocmr-test-2/static/media/logo.cc3ac800df9d98cad9859c56dd429bc4.svg",
-    "static/media/red-ball-small.svg": "/amocmr-test-2/static/media/red-ball-small.24432bf55a7885dc911a.svg",
-    "static/media/purple-ball.svg": "/amocmr-test-2/static/media/purple-ball.f27dd8500d788738ee6e.svg",
-    "static/media/red-ball.svg": "/amocmr-test-2/static/media/red-ball.9060293ec400d27cb062.svg",
     "static/media/whatsapp.svg": "/amocmr-test-2/static/media/whatsapp.47848df72d59f214c20c56a9d6d3bd91.svg",
     "static/media/viber.svg": "/amocmr-test-2/static/media/viber.77f33c2bb7a30cb7ad3298ac999fc1a8.svg",
     "index.html": "/amocmr-test-2/index.html",
     "static/media/red-light.svg": "/amocmr-test-2/static/media/red-light.f2e9ae5947fe94e1c2b0.svg",
     "static/media/purple-light.svg": "/amocmr-test-2/static/media/purple-light.677338f27ccc0af876c0.svg",
     "static/media/telegram.svg": "/amocmr-test-2/static/media/telegram.6e7254cc96db7b38e3485ef68453666f.svg",
-    "main.2e19aa9c.css.map": "/amocmr-test-2/static/css/main.2e19aa9c.css.map",
-    "main.7a4e2a14.js.map": "/amocmr-test-2/static/js/main.7a4e2a14.js.map",
+    "main.81aa5998.css.map": "/amocmr-test-2/static/css/main.81aa5998.css.map",
+    "main.ef580e63.js.map": "/amocmr-test-2/static/js/main.ef580e63.js.map",
     "787.0c3f432a.chunk.js.map": "/amocmr-test-2/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e19aa9c.css",
-    "static/js/main.7a4e2a14.js"
+    "static/css/main.81aa5998.css",
+    "static/js/main.ef580e63.js"
   ]
 }
